@@ -1,0 +1,26 @@
+.sidenav {
+  width: 200px;
+  height: 100%;
+  position: fixed;
+  background-color: black;
+  color: white;
+}
+.sidenav ul {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidenav ul li a {
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  color: white;
+}
+
+.sidenav ul li a:hover {
+  color: red;
+}
